@@ -6,12 +6,12 @@ namespace TestRR
     [TestClass]
     public class UnitTest1
     {
-        RussianRoulete.ShootingClass shootingClass = new RussianRoulete.ShootingClass();
+        RussianRoulete.ShootingClass SClass = new RussianRoulete.ShootingClass();
 
         [TestMethod]
         public void TestMethod1()
         {
-            int result = shootingClass.SpinChamber();
+            int result = SClass.SpinChamber();
 
             Assert.IsTrue(result > 0 && result < 7);
         }

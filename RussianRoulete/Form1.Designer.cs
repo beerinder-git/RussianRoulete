@@ -62,6 +62,7 @@
             this.ShootBtn.TabIndex = 2;
             this.ShootBtn.Text = "Shoot";
             this.ShootBtn.UseVisualStyleBackColor = true;
+            this.ShootBtn.Click += new System.EventHandler(this.ShootBtn_Click);
             // 
             // ShAwayBtn
             // 
@@ -71,6 +72,7 @@
             this.ShAwayBtn.TabIndex = 3;
             this.ShAwayBtn.Text = "Shoot Away";
             this.ShAwayBtn.UseVisualStyleBackColor = true;
+            this.ShAwayBtn.Click += new System.EventHandler(this.ShAwayBtn_Click);
             // 
             // Form1
             // 
